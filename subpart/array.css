@@ -1,0 +1,107 @@
+html, * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    text-align: center;
+    background-color: #373b3e;
+}
+
+.grid {
+    width: 1000px;
+    position: relative;
+    height: 400px;
+    background: white;
+    margin: 40px auto;
+    display: flex;
+    flex-wrap: wrap;
+    outline: 1px solid red;
+}
+
+p{
+    padding: 40px;
+    text-align: center;
+    font-family: serif;
+    font-weight: bolder;
+    font-size: 50px;
+    color : white;
+}
+
+.arr__controllers {
+    max-width: 500px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.arr__delete, .arr__insert, .arr__search {
+    /* padding: 10px 30px; */
+    height : 50px;
+    width : 90px;
+    margin : 20px;
+    background-color: black;
+    color : white;
+}
+
+.arr__delete:hover, .arr__insert:hover, .arr__search:hover, .insert__submit:hover {
+    /* padding: 10px 30px; */
+    background-color: white;
+    color : black;
+}
+
+.arr__peek__input {
+    width: 60px;
+    padding: 10px;
+}
+
+.color__scheme {
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    border: 1px solid lightgreen;
+    margin-right: 5px;
+}
+
+.color__scheme > span:nth-child(1) {
+    height: 20px;
+    width: 20px;
+    padding: 5px;
+    margin-right: 20px;
+    background: lightgreen;
+}
+
+
+.color__scheme > span:nth-child(2) {
+    font-weight: bolder;
+    color: gray;
+    margin: 0px 20px 0 0 ;
+
+}
+
+.insert__details {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    padding: 20px;
+    background: white;
+}
+.insert__details > * {
+    padding: 10px;
+}
+
+.insert__details label {
+    font-weight: bold;
+    color:black;
+}
+
+.insert__submit > button, .insert__details input, .delete__submit > button {
+    padding: 10px;
+}
+
+.arr__search {
+    display: none;
+}
+

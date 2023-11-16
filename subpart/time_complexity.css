@@ -1,0 +1,102 @@
+html, * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+    background: #373b3e;
+}
+
+p:nth-child(1) {
+    padding: 20px;
+    text-align: center;
+    font-family: ubuntu;
+    font-weight: bolder;
+    font-size:40px;
+    color: white;
+    font-weight: bolder;
+    text-shadow: -2px 5px 3px rgba(0, 0, 0, .2);
+    text-transform: uppercase;
+}
+
+.blog {
+    margin: 10px auto;
+    max-width: 800px;
+    /*background: white;*/
+    text-align: center;
+}
+
+.blog__heading {
+    text-align: left;
+    font-size: 29px;
+    text-transform: capitalize;
+    font-weight: bolder;
+    color: rgb(227, 216, 216);
+    padding: 5px;
+}
+.blog .survey__image {
+    width: 700px;
+    margin: 15px auto;
+}
+
+.survey_explain{
+    text-align: justify;
+    margin: 30px auto;
+    padding: 5px;
+    font-size: 24px;
+    color: rgb(198, 193, 193);
+    font-weight: normal;
+    line-height: 30px;
+}
+
+.each_header{
+    text-transform: capitalize;
+    font-size: 28px;
+}
+
+.o_notations {
+    margin: 20px auto;
+}
+
+.o_notations > div {
+    margin: 30px auto;
+}
+
+.o_notations > div > .head {
+    color: rgb(255, 252, 252);
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.big__each__explaination {
+
+    font-size: 20px;
+}
+.doc {
+    font-size: 25px;
+    font-weight: normal;
+    padding: 20px 0px;
+}
+
+pre{
+    font-size: 15px;
+    background: black;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 8px rgba(0, 0, 0, .9);
+}
+
+.list {
+    position: relative;
+    left: 30px;
+}
+
+.image_ext {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0px;
+}

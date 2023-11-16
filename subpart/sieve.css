@@ -1,0 +1,53 @@
+html, * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    text-align: center;
+    background-color: #373b3e;
+}
+
+.main__heading {
+    background: black;
+    box-shadow: -5px -5px 20px 	rgba(0, 0, 0, .3);
+    border-radius: 0px 0px 30px 30px;
+    font-family: serif;
+    font-weight: bolder;
+    font-size: 34px;
+    margin: 0px 10px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    padding: 20px 0px ;
+    color : white;
+}
+
+
+.grid {
+    background: lightgreen;
+    margin: 20px auto;
+}
+
+p:nth-child(1) {
+    padding: 10px 20px;
+    text-align: center;
+    font-family: ubuntu;
+    font-weight: bolder;
+    font-size: 25px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.generate {
+    padding: 10px 30px;
+    background-color: black;
+    color : white;
+}
+
+.generate:hover{
+    background-color: white;
+    color : black;
+}
